@@ -1,0 +1,498 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+
+body {
+	background: black;
+	font-family: 'Poppins', sans-serif;
+}
+.navbar {
+	font-weight: 1500;
+}
+
+.tombol-home {
+	font-size: 28px;
+	font-weight: 400;
+	padding: 20PX;	
+}
+
+.tombol-navbar {
+	border-radius: 100px;
+	background: #000000;
+	border: none;
+	max-width: 48px;
+	height: 48px;
+	padding: 10px;
+	margin-left: 12px;
+}
+
+.tombol-navbar svg{
+	fill: rgb(255, 255, 255) !important
+}
+
+.tombol-navbar:hover {
+	background: #ffffff
+}
+.tombol-navbar:hover svg{
+	fill: black !important
+}
+
+.bg-header {
+	background: ;
+}
+.carousel-caption h5 {
+	font-size:48px;
+}
+
+.home-left {
+	max-width: 100%;
+	width: 30%;
+	top: 180% 96%;
+	width: 180px;
+	height: 96px;
+}
+
+.home-left2 {
+	max-width: 100%;
+	width: 65%;
+}
+
+
+.bloom {
+	width: 300px;
+	height: 96px;
+	color: rgba(255, 255, 255, 0.80);
+	font-family: 'Dancing Script', cursive;
+	font-size: 80px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+
+.espresso {
+	width: 600px;
+	height: 116px;
+	color: rgba(255, 255, 255, 0.80);
+	font-family: 'Dancing Script', cursive;
+	font-size: 90px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+
+.nikmati{
+	width: 330px;
+	color: #FFF;
+	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	font-family: Amiri;
+	font-size: 28px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+
+.secangkir{
+	width: 230px;
+	color: #FFF;
+	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	font-family: Amiri;
+	font-size: 28px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+
+.button-order {
+	border-bottom: 1px solid rgba(238, 186, 44, 1);
+	max-width: 100%;
+	padding: 5px 20px 5px 20px;
+	border-radius: 40px;
+	text-align: center;
+	margin: 0px 700px 320px 0px;
+	margin-left: auto;
+}
+
+.tombol-kontak {
+	display: inline-flex;
+	border-radius: 100px;
+	background: #EEBA2C;
+	border: none;
+	width: 48px;
+	height: 48px;
+	padding: 10px;
+	margin: 0px 100px 0px 0px;
+}
+
+.tombol-kontak svg{
+	fill: rgb(255, 255, 255) !important
+}
+
+.tombol-kontak:hover {
+	background: white
+}
+
+.tombol-kontak:hover svg{
+	fill: #EEBA2C !important
+}
+
+
+.coffe {
+	color: #EEBA2C;
+}
+
+.non-coffe {
+    color: #FFF;
+    text-align: center;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Anek Bangla;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.snack {
+    color: #FFF;
+    text-align: center;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Anek Bangla;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.rice {
+    color: #FFF;
+    text-align: center;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Anek Bangla;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.tombol-menu {
+	font-size: 28px;
+	font-weight: 400;	
+}
+
+.kopi {
+	display: inline-block;
+}
+
+.text-harga {
+	font-weight: 400;
+	line-height: normal;
+}
+
+.border-menu {
+	padding-top: 30px;
+	color: #EEBA2C;
+}
+
+.font-menu {
+	font-size: 30px;
+	color: #000000;
+}
+.menu-home {
+	color: #EEBA2C;
+	display: inline-block;
+	padding: 15px;
+	font-size: 25px;
+}
+.menu-coffe {
+	display: inline-block;
+	padding-top: 10px;
+	padding: 15px;
+	color: #EEBA2C;
+	font-size: 25px;
+}
+.kolom-menu {
+	margin-top: 10px;
+	background: #EEBA2C;
+	font-size: 25px;
+	font-weight: 500;
+	border: 1px #EEBA2C;
+	border-radius: 20px;
+}
+
+.harga {
+	padding-bottom: 50PX;
+	border: 1px #EEBA2C;
+	border-radius
+}
+.harga-kolom-atas {
+	margin-top: 10px;
+	margin-bottom: 50px;
+	background: #EEBA2C;
+	font-size: 25px;
+	font-weight: 500;
+	border: 1px #EEBA2C;
+	border-radius: 10px;
+}
+
+.harga-kolom-bawah {
+	margin-top: 10px;
+	background: #EEBA2C;
+	font-size: 25px;
+	font-weight: 500;
+	border: 1px #EEBA2C;
+	border-radius: 10px;
+}
+
+.nama-barang {
+	font-size: 40px;
+}
+.tombol-menu {
+	color: #ffffff;
+	font-size: 28px;
+	font-weight: 400;
+	padding: 20PX;	
+}
+.text-color {
+	color: #ffffff;
+}
+
+.menu-home a {
+	text-decoration: none;
+	color: #EEBA2C;
+}
+
+.menu-coffe a {
+	text-decoration: none;
+	color: gray;
+}
+
+.menu-coffe a:hover {
+	color: #ffffff;
+}
+
+.ukuran {
+	padding-top: 30px;
+	font-size: 48px;
+}
+.minuman {
+	font-size: 48px;
+}
+
+.font-pemilihan {
+	display: flex;
+	font-size: 25px;
+	padding-bottom: 30px;
+}
+.btn-pemilihan {
+	margin-right: 140PX;
+	color: none;
+	background: #EEBA2C;
+	border-radius: 10px;
+}
+.btn-pemilihan:hover {
+	color: #EEBA2C;
+}
+.kembali{
+	padding-bottom: 30px;
+}
+.kembali a {
+	color: gray;
+	margin-right: 1000px;
+	font-size: 48px;
+}
+.kembali a:hover {
+	color: #ffffff;
+}
+
+.espresso-tabel {
+	margin-top: 10px;
+	background: #EEBA2C;
+	font-size: 25px;
+	font-weight: 500;
+	border: 1px #EEBA2C;
+	border-radius: 10px;
+}
+.font-harga {
+	font-size: 20px;
+}
+
+
+.btn-keranjang{
+	padding-top: 20px;
+}
+.pembayaran {
+	margin-right: 1000px;
+	font-size: 48px;
+	margin-bottom: 100px;
+}
+.logo-lokasi {
+	display: flex;
+}
+.font-alamat {
+	font-size: 20px;
+	margin-bottom: 60px;
+}
+.font-tukad {
+	font-size: 32px;
+	margin-bottom: 60px;
+}
+.rangkuman {
+	color: #000000;
+	margin-top: 10px;
+	background: #EEBA2C;
+	font-size: 25px;
+	font-weight: 500;
+	border: 1px #EEBA2C;
+}
+.total-espresso {
+	display: flex;
+}
+.total-harga {
+	font-size: 20px;
+	margin-top: 10px;
+	margin-left: 70px;
+}
+.edit-link {
+	margin-right: 300px;
+	font-size: 20px;
+}
+.tabel-aja {
+	color: #EEBA2C;
+	background: #EEBA2C;
+	margin-top: 100px;
+}
+
+.metode {
+	color: #000000;
+	margin-top: 10px;
+	background: #EEBA2C;
+	font-size: 25px;
+	font-weight: 500;
+	border: 1px #EEBA2C;
+	margin-bottom: 20PX;
+}
+
+.btn-pembayaran {
+	color: none;
+	background: #EEBA2C;
+	border-radius: 10px;
+}
+.bayar {
+	color: #000000;
+	margin-top: 10px;
+	border-radius: 40px;
+	background: rgba(255, 255, 255, 0.80);
+	font-size: 25px;
+	font-weight: 500;
+	border: 1px #EEBA2C;
+}
+
+.total-semua {
+	color: #000000;
+	margin-top: 10px;
+	background: #EEBA2C;
+	font-size: 25px;
+	font-weight: 500;
+	border: 1px #EEBA2C;
+}
+
+.total-angka {
+	color: #000000;
+	margin-top: 10px;
+	background: #EEBA2C;
+	font-size: 25px;
+	font-weight: 500;
+	border: 1px #EEBA2C;
+}
+.harga-aja {
+	margin-left: 20px;
+	display: flex;
+}
+.harga-deh {
+	margin-left: 530px;
+	margin-bottom: 90px;
+}
+
+.pembayar {
+	color: #000000;
+	margin-top: 10px;
+	border-radius: 9px;
+	background: #16980B;
+	font-size: 25px;
+	font-weight: 500;
+	border: 1px 6980B;
+	margin-left: 300px;
+	margin-right: 300px;
+}
+
+.kembali-lagi {
+	padding-bottom: 30px;
+}
+.kembali-lagi a {
+	color: gray;
+	margin-right: 1000px;
+	font-size: 40px;
+}
+.kembali-lagi a:hover {
+	color: #ffffff;
+}
+.loginn{
+	margin-bottom: 90px;
+	font-size: 80px;
+}
+.email{
+	margin-bottom: 30px;
+	display: flex;
+	font-size: 60px;
+}
+
+.masuk-email{
+	margin-bottom: 100px;
+	padding: 30px 30px 30px 80px;
+	display: flex;
+	color: #000000;
+	margin-top: 10px;
+	background: #EEBA2C;
+	font-size: 25px;
+	font-weight: 1000;
+	border: 1px #EEBA2C;
+}
+
+
+.btn-masuk {
+	color: #000000;
+	margin-top: 10px;
+	border-radius: 9px;
+	background: #16980B;
+	font-size: 50px;
+	font-weight: 500;
+	border: 1px 6980B;
+	margin-left: 300px;
+	margin-right: 300px;
+}
+
+.btn-masuk a {
+	text-decoration: none;
+	color: #ffffff;
+}
+.contact {
+	font-size: 96px;
+	margin-bottom: 40px;
+}
+.paragra {
+	font-size: 48px;
+	margin-bottom: 40px;
+}
+.jalan {
+	font-size: 24px;
+	margin-bottom: 50px;
+}
+
+.tombol-contak {
+	display: inline-flex;
+	border-radius: 100px;
+	background: #EEBA2C;
+	border: none;
+	width: 181.87px;
+	height: 178px;
+	padding: 10px;
+	margin: 0px 100px 0px 0px;
+}
